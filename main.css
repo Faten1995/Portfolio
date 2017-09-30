@@ -56,7 +56,9 @@ a {
 	-webkit-transition: .5s;
 	transition: .5s;
 	text-decoration: none;
+    color: #7dd1b1;
 }
+
 
 em {
 	font-style: oblique;
@@ -129,10 +131,20 @@ body {
 	/* Chrome, Safari, Opera */
 	animation-delay: 2s;
 }
+.wrapper2 {
+	max-width: 960px;
+	margin: 0 auto;
+	font-family: proxima-nova, sans-serif;
+	-webkit-animation-delay: 4s;
+	/* Chrome, Safari, Opera */
+	animation-delay: 2s;
+    
+}
 
 .about {
 	padding: 4% 0;
 }
+
 
 .about p {
 	font-family: proxima-nova, sans-serif;
@@ -147,6 +159,29 @@ body {
     
 }
 
+.wrapper 
+.about a {
+    color: #7dd1b1;
+}
+hr{
+    border: 1px solid #162a3b;
+}
+.where-am-I {
+	
+	padding: 2% 0;
+}
+.where-am-I h3{
+    padding: 2% 0;
+    
+}
+
+.where-am-I p{
+    padding: 2%;
+	line-height: 1.8;
+	color: #fff;
+	letter-spacing: .03em;
+	font-size: 1em;
+}
 .about p a {
 	color: #00004d;
 	border-bottom: 2px solid;
@@ -179,6 +214,7 @@ body {
 	letter-spacing: .03em;
 	font-size: 1em;
 }
+
 
 .button {
 	padding: 5% 3%;
@@ -214,8 +250,8 @@ body {
 .contact {
 	width: 100%;
 	background-color: #162a3b;
-	padding: 5% 0;
-	margin-top: 5%;
+	padding: 1% 0;
+	margin-top: 1%;
 	clear: both;
 }
 
@@ -241,22 +277,26 @@ body {
 	text-decoration: none;
 }
 
+
 .image-divider {
-	padding: 30% 0;
-	background: /* bottom, image */
-	url(images/divimg.jpg);
-	background-size: cover;
+	padding: 10%;
+	 /* bottom, image */
+	background: linear-gradient( rgba(0,0,0,0.30)	, rgba(0,0,0,0.20)), /* bottom, image */
+	url(images/background.jpg);
+	
     background-color: #162a3b;
 	background-position: center top;
+    
+    
 }
 
 footer {
  background-color:#162a3b;
  color:#fff;
- padding:2% 0;
+ padding:1% 0;
  width:100%;
  clear:both;
- height:100px;
+ 
 }
 
 .footer-content {
@@ -272,7 +312,7 @@ footer {
  font-size:1em;
 }
 
-.credit {
+.ending {
  float:left;
 }
 
